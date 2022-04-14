@@ -9,7 +9,7 @@
  *
  *  Note: methods can be overridden, but instance fields can NOT.
  */
-public class CheckingAccount
+public class CheckingAccount extends BankAccount
 {
     /**
      * The bank charges a fee 'TRANSACTION_FEE' for
@@ -22,6 +22,9 @@ public class CheckingAccount
      *  Constructs a checking account with a given balance.
      */
     public CheckingAccount(double initialBalance) {
+        super();
+        double balance1 = getBalance();
+
         // <<< Code Not Complete >>>
     }
 
